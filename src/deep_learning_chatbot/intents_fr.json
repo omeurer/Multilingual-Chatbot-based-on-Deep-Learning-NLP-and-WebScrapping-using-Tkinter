@@ -1,0 +1,203 @@
+{
+    "intents": [
+      {
+        "tag": "welcoming",
+        "patterns": [
+          "Bonjour",
+          "Hello",
+          "Il y a quelqu'un par ici ? ",
+          "Coucou",
+          "Bonsoir",
+          "Salut",
+          "Yo",
+          "Hola",
+          "Ciao",
+          "Hey"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Bonjour !",
+          "Salut, que puis-je faire pour vous ?",
+          "Salut, comment puis-je vous aider ?",
+          "Bonjour, de quoi avez-vous besoin ?"
+        ]
+      },
+      {
+        "tag": "state",
+        "patterns": [
+          "Comment allez-vous ? ",
+          "Comment vas-tu ?",
+          "Ça va ? ",
+          "Tout va bien ? ",
+          "Es-tu heureux ?  ",
+          "Etes-vous heureux ?",
+          "Comment ça va ?  ",
+          "En forme ? "
+        ],
+        "responses": [
+          "Je suis au top de ma forme !",
+          "On ne peux pas être plus en forme ! ",
+          "Ça boume un max :P",
+          "Tout va très bien pour moi, et j'espère également pour vous.",
+          "Oui super !"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Au revoir", "Aurevoir", "À bientôt", "Ciao", "Bisous", "A la prochaine"],
+        "responses": [
+          "À bientôt ! Merci pour votre visite.",
+          "Passez une bonne journée !",
+          "Au revoir ! Revenez bientôt.",
+          "Au revoir, j'espère vous avoir été utile.",
+          "A une prochaine fois !",
+          "Au plaisir d'avoir pu vous aider !"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Merci", "Je vous remercie", "Je te remercie", "Ça m'aide beaucoup", "Merci beaucoup !", "Cela m'aide énormément", "Top", "Thanks", "Super merci"],
+        "responses": ["Je suis heureux de vous avoir aidé !", "Quand vous voulez !", "C'est mon plaisir !", "Il n'y a pas de quoi ;-)", "Ravi d'avoir pu vous aider", "Je vous en prie", "De rien", "Avec plaisir"]
+      },
+      {
+        "tag": "features",
+        "patterns": [
+          "Quelles sont vos fonctionnalités?",
+          "Quelles sont tes fonctionnalités",
+          "Quels services proposez-vous?",
+          "Quels services proposes-tu ?",
+          "Que faites vous ?",
+          "Que fais-tu ?",
+          "À quoi servez-vous ?",
+          "A quoi sers-tu ?",
+          "Que proposez-vous ?",
+          "Que proposes-tu ?"
+        ],
+        "responses": [
+          "Je propose plein de choses ! Vous pouvez me demander la météo, votre horoscope du jour, des blagues, des définitions ou juste discuter avec moi :-)",
+          "Je peux vous donner la météo, votre horoscope, des blagues, des définitions ou juste discuter.",
+          "Je peux vous porposer plusieurs fonctionnalités : la météo, votre horoscope, des blagues, des définitions, ou nous pouvons simplement discuter."
+        ]
+      },
+      {
+        "tag": "operation",
+        "patterns": [
+          "Comment fonctionnes-tu?",
+          "Comment fonctionnez-vous?",
+          "Qui êtes vous ?",
+          "Qui es-tu ?",
+          "Quel est votre rôle ?",
+          "Quel est ton rôle ?",
+          "Tu marches comment ?",
+          "Vous marchez comment ?"
+        ],
+        "responses": [
+          "Je suis un humble chabot à vous service, basé sur des requêtes internet et de l'apprentissage profond",
+          "Je fonctionnement sur l'analyse de votre reqûete, pour choisir la réponse adaptée",
+          "Je suis le plus cool des chatbot ! J'essaierai du mieux que je peux de répondre à vos questions grâce à des requêtes internet et de l'apprentissage profond."
+        ]
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Raconte moi une blague",
+          "Racontez moi une blague",
+          "Connais-tu une blague ? ",
+          "Connaissez-vous une blague ?",
+          "Peux-tu me raconter une blague ? ",
+          "Pouvez-vous me raconter une blague ?",
+          "Es-tu drôle ? ",
+          "Etes-vous drôle ?",
+          "Fais moi rire",
+          "Faites moi rire",
+          "Je veux rigoler",
+          "Je veux rire",
+          "T'es rigolo ?",
+          "Vous êtes rigolo ?",
+          "T'as de l'humour ?",
+          "Vous avez de l'humour ?",
+          "Blague",
+          "Fais une blague",
+          "Faites une blague"
+        ],
+        "responses": [
+        ]
+      },
+      {
+        "tag": "meteo",
+        "patterns": [
+          "Quelle est la météo ?",
+          "Quel temps fait-il à ",
+          "Pleut-il à ",
+          "Fait-il du soleil à ",
+          "Quelle est la température à ",
+          "Y-a-t-il des nuages à ",
+          "Dois-je sortir mon parapluie ?",
+          "Peux-tu me donner le temps à ",
+          "Pouvez-vous me donner le temps à",
+          "Fait-il chaud à ",
+          "Fait-il froid à ",
+          "Est ce que je dois me couvrir ?",
+          "Est ce que je dois mettre des lunettes de soleil ?",
+          "Est ce que je dois mettre un manteau ?"
+        ],
+        "responses": [
+        ]
+      },
+      {
+        "tag": "horoscope",
+        "patterns": [
+          "Quel est mon horoscope",
+          "Que se passe t il pour mon signe astrologique",
+          "Sont les astres alignés pour moi ? ",
+          "Comment va se passer ma journée ?  ",
+          "Ai-je un bon futur ?  ",
+          "Donne moi mon horoscope de la journée",
+          "Donnez moi mon horoscope de la journée",
+          "Est ce que les étoiles sont alignées ?",
+          "Est ce que je vais passer une bonne journée ?",
+          "horoscope",
+          "Est ce que j'ai un bon horoscope ?"
+        ],
+        "responses": [
+        ]
+      },
+      {
+        "tag": "dictionary",
+        "patterns": [
+          "Quelle est la définition de ",
+          "Peux-tu définir ",
+          "Pouvez-vous définir ",
+          "C'est quoi la définition de ",
+          "Que veut dire le mot ",
+          "dictionnaire",
+          "Quelle est la def de ",
+          "def de ",
+          "Comment définir ",
+          "Peux tu me donner la définition de ",
+          "Pouvez vous me donner la définition de "
+        ],
+        "responses": [
+        ]
+      },
+      {
+        "tag": "sudoku",
+        "patterns": [
+          "Sudoku",
+          "Je veux jouer au sudoku",
+          "Puis-je jouer au sudoku ? ",
+          "Est ce que je peux faire un sudoku ?",
+          "Montre moi un sudoku",
+          "J'ai envie de jouer au sudoku",
+          "J'ai envie de faire un sudoku",
+          "jeu sudoku",
+          "Est ce que je peux jouer au sudoku ?",
+          "Je veux faire un sudoku",
+          "Lance une partie de sudoku",
+          "Lance le jeu de sudoku"
+        ],
+        "responses": [
+        ]
+       }
+    ]
+  }

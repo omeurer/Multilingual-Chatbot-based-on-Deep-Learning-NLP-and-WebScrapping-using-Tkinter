@@ -1,0 +1,194 @@
+{
+    "intents": [
+      {
+        "tag": "welcoming",
+        "patterns": [
+          "hello",
+          "Hello",
+          "Anybody there?",
+          "Hello",
+          "Good evening",
+          "Hi",
+          "Yo",
+          "Hola",
+          "Ciao",
+          "Hey"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello!",
+          "Hi, what can I do for you?",
+          "Hi, how can I help you?",
+          "Hi, what do you need?"
+        ]
+      },
+      {
+        "tag": "state",
+        "patterns": [
+          "How are you? ",
+          "How are you?",
+          "Are you okay?",
+          "Is everything okay? ",
+          "Are you happy?  ",
+          "Are you happy?",
+          "How are you?",
+          "Fit? "
+        ],
+        "responses": [
+          "I'm in top shape!",
+          "Couldn't be in better shape! ",
+          "It's rockin' :P",
+          "Everything is going great for me, and I hope for you too.",
+          "Yes great!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "Good Bye", "See you later", "Ciao", "kiss", "See you next time", "Another time"],
+        "responses": [
+          "See you soon! Thanks for visiting.",
+          "Have a nice day!",
+          "Goodbye! Come back soon.",
+          "Goodbye, I hope I've been helpful.",
+          "See you next time!",
+          "Glad I could help!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "I thank you", "I thank you", "This helps me a lot", "Thank you so much!", "This helps me a lot", "Top", "Thanks", "Super thanks"],
+        "responses": ["I'm glad to have helped you!", "Anytime!", "It's my pleasure!", "You're welcome ;-)", "Glad I could help you", "You're welcome", "You're welcome", "My pleasure"]
+      },
+      {
+        "tag": "features",
+        "patterns": [
+          "What are your features?",
+          "What are your features",
+          "What services do you offer?",
+          "What services do you offer?",
+          "What do you do?",
+          "What do you do?",
+          "What are you good for?",
+          "What are you good for?",
+          "What do you offer?",
+          "What do you offer?"
+        ],
+        "responses": [
+          "I offer lots of things! You can ask me the weather, your horoscope of the day, jokes, definitions or just chat with me :-)",
+          "I can give you the weather, your horoscope, jokes, definitions or just chat",
+          "I can give you the weather, your horoscope, jokes, definitions, or we can just chat."
+        ]
+      },
+      {
+        "tag": "operation",
+        "patterns": [
+          "how do you function?",
+          "How do you function?",
+          "Who are you?",
+          "Who are you?",
+          "What is your role?",
+          "What is your role?",
+          "How do you walk?",
+          "How do you walk?"
+        ],
+        "responses": [
+          "I am a humble chabot at your service, based on internet queries and deep learning",
+          "I work on the analysis of your request, to choose the right answer",
+          "I am the coolest chatbot ever! I will try my best to answer your questions through web queries and deep learning."
+        ]
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Tell me a joke",
+          "Tell me a joke",
+          "Do you know a joke?",
+          "Do you know a joke?",
+          "Can you tell me a joke?",
+          "Can you tell me a joke?",
+          "Are you funny? ",
+          "Are you funny?",
+          "Make me laugh.",
+          "Make me laugh",
+          "I want to laugh",
+          "I want to laugh",
+          "Are you funny?",
+          "Are you funny?",
+          "Do you have a sense of humor?",
+          "Do you have a sense of humor?",
+          "Joke.",
+          "Make a joke",
+          "Make a joke"
+        ],
+        "responses": [
+        ]
+      },
+      {
+        "tag": "meteo",
+        "patterns": [
+          "What's the weather like?",
+          "What's the weather like in ",
+          "Is it raining in ",
+          "Is it sunny in ",
+          "What is the temperature in ",
+          "Is it cloudy in ",
+          "Should I take out my umbrella?",
+          "Can you give me the time to ",
+          "Can you give me the time to",
+          "Is it hot in ",
+          "Is it cold in ",
+          "Do I need to cover up?",
+          "Should I wear sunglasses?",
+          "Should I wear a coat?"
+        ],
+        "responses": [
+        ]
+      },
+      {
+        "tag": "horoscope",
+        "patterns": [
+          "What is my horoscope",
+          "What's going on with my star sign",
+          "Are the stars aligned for me?",
+          "How is my day going?  ",
+          "Do I have a good future?  ",
+          "Give me my horoscope for the day",
+          "Give me my horoscope for the day",
+          "Are the stars aligned?",
+          "Am I going to have a good day?",
+          "horoscope",
+          "Do I have a good horoscope?"
+        ],
+        "responses": [
+        ]
+      },
+      {
+        "tag": "dictionary",
+        "patterns": [
+          "What is the definition of ",
+          "Can you define ",
+          "Can you define ",
+          "What is the definition of ",
+        "Give me the definition of "
+        ],
+        "responses": [
+        ]
+      },
+      {
+        "tag": "sudoku",
+        "patterns": [
+          "I want to play sudoku",
+          "I want to do a sudoku",
+          "May I play sudoku ?",
+          "May I do a sudoku ?",
+          "Can I do a sudoku ?",
+          "Can I play sudoku ?",
+          "Can I play the game sudoku ?",
+          "Show me the sudoku game",
+          "Start the game sudoku"
+        ],
+        "responses": [
+        ]
+      }
+    ]
+  }
